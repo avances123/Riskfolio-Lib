@@ -97,9 +97,6 @@ Example
     # Estimate the risk parity portfolio for semi standard deviation
     w2 = port.rp_optimization(model='Classic', rm=rm, rf=0, b=None, hist=True)
 
-    # Estimate the risk parity portfolio for semi standard deviation
-    w2 = port.rp_optimization(model='Classic', rm=rm, rf=0, b=None, hist=True)
-
     # Estimate the risk parity portfolio for risk factors
     port.factors = X
     port.factors_stats(method_mu=method_mu,
